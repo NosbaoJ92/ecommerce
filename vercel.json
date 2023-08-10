@@ -1,6 +1,6 @@
 {
     "functions": {
-      "api/resources/views/*.php": {
+      "api/resources/views/*blade.php": {
         "runtime": "vercel-php@0.6.0"
       }
     },
