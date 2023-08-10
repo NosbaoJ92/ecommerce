@@ -17,7 +17,7 @@
 
             foreach ($cards as $index => $card) {
                 //inicia-card
-                echo '<a href="#" method="Post" class="item relative rounded-xl flex flex-col w-2/12 h-96 border-b pb-6 bg-white items-center hover:drop-shadow-2xl hover:border-b-4 hover:border-lime-300 hover:transition-all hover:delay-100 max-[767px]:flex-row max-[767px]:w-full max-[767px]:h-56 max-[767px]:rounded-none max-[767px]:pb-0 min-[768px]:w-5/12 min-[1300px]:w-5/12 min-[1600px]:w-3/12">';
+                echo '<a href="#" method="Post" class="item relative rounded-xl flex flex-col w-2/12 h-96 border-b pb-6 bg-white items-center hover:drop-shadow-2xl hover:border-b-4 hover:border-lime-300 hover:transition-all hover:delay-100 max-[767px]:flex-row max-[767px]:w-full max-[767px]:h-56 max-[767px]:rounded-none max-[767px]:pb-0 min-[768px]:w-5/12 min-[1300px]:w-5/12 min-[1600px]:w-3/12   ">';
                     //inicia-imagem
                     echo '<div class="img relative w-full h-3/4 bg-zinc-300 rounded-t-xl max-[767px]:h-full max-[767px]:w-6/12 max-[767px]:rounded-none">';
                         echo '<img class="w-full h-full object-scale-down p-6 max-[767px]:object-contain " src="' . $card['image'] . '" alt="Imagem">';
